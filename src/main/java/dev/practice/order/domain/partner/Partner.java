@@ -26,6 +26,7 @@ import javax.persistence.Table;
 public class Partner extends AbstractEntity {
 
     public static final String PREFIX_PARTNER = "ptn_";
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
